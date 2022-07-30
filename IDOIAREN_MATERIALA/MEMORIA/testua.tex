@@ -1,0 +1,153 @@
+\documentclass[12pt,a4paper,oneside]{luciathesis}
+
+\input comandos
+\usepackage[pdftex]{color,graphicx}
+
+
+\usepackage{colortbl}
+
+\usepackage[spanish]{babel}
+\usepackage{epsfig}
+\usepackage{times}
+% \usepackage{spanish}
+\usepackage{bibunits}
+\usepackage{marvosym}
+%\usepackage{natbib}
+
+
+\usepackage{enumerate}
+\usepackage{mdwlist}
+
+%\usepackage{color}
+
+\definecolor{light}{gray}{.7}
+\newcommand{\emptyfield}[1]{\colorbox{light}{:OJO: #1} 
+\typeout{:OJO: #1}}
+
+\usepackage{pstricks}
+
+\usepackage{hyperref}
+\hypersetup{pdfauthor={Idoia G. de Gurtubay}}
+\hypersetup{pdfpagemode=UseOutlines}
+
+\hypersetup{colorlinks=false}
+\hypersetup{urlcolor=blue}
+\hypersetup{linkcolor=black}
+\hypersetup{citecolor=black}
+
+
+%-------------------------------------------------------------
+% ---- Los margenes
+% All side margins on single-sided pages are controlled with the 
+% \oddsidemargin command. The distance from the left side of the page
+% to the left side of the text is one inch + \oddsidemargin. 
+% To set margins of less than 1in, set the \oddsidemargin command 
+% with a negative length like -0.5in. The right margin is changed
+% by combining the \oddsidemargin (default of 1) with the \textwidth.
+%-------------------------------------------------------------
+
+\oddsidemargin 0.1cm
+\textwidth 15cm
+
+\textheight 22cm
+\topmargin -0.5cm
+\headsep 1.5 cm
+
+%------------------------------------%
+% Parameter for headings
+% La linea del encabezado tiene por defecto la longitud del
+% \textwidth, asi que si lo cambiamos, hay que hacerlo antes
+% de los headers
+%------------------------------------%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter. \chaptername:\
+    \ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\lhead[\rmfamily \thepage]
+    {\fancyplain{}{\slshape \let\uppercase\relax\rightmark}}
+\rhead[\fancyplain{}{\slshape \let\uppercase\relax\leftmark}]
+    {\rmfamily\thepage}
+\cfoot{}
+\renewcommand{\headrulewidth}{0.5pt}
+
+\input{my_hyphens}
+
+%-------------------------------------
+% start with the document
+%-------------------------------------
+
+\begin{document}
+
+
+
+%-------------LA TAPA -------
+	\input{00-portada.tex}
+
+% LA diligencia
+	\input {01-diligencia.tex}
+%--------------------------
+
+
+\pagenumbering{roman}
+
+%-------------------parskip to 0 for contents
+       \setlength{\parskip}{0ex plus0.2ex minus0.2ex}
+       \renewcommand{\baselinestretch}{1} \small\normalsize
+       \tableofcontents
+       \addtocontents{toc}{\protect\thispagestyle{empty}}
+       \renewcommand{\baselinestretch}{1.2} \small\normalsize
+
+
+%-------------------parskip to 0 .8 for the rest
+       \setlength{\parskip}{0.8ex plus0.2ex minus0.2ex}
+
+
+\pagestyle{fancy}
+\clearpage
+\pagenumbering{arabic}
+
+
+%-----------------------------
+   \fancyhf{}
+   \lhead{Curriculum Vitae}
+   \rhead{\thepage}	
+   \cfoot{}	
+   \begin{part}{Curriculum Vitae} \label{CV}
+     \input {1-CV}
+   \end{part}
+
+  \setcounter{chapter}{0}
+%-----------------------------
+ \begin{part}{Proyecto Docente} \label{PD}
+   \fancyhf{}
+   \lhead{Proyecto docente}
+   \rhead{\thepage}
+   \cfoot{}
+%   \begin{part}{Proyecto Docente} \label{PD}
+     \input {3-ProyDocente-Intro}
+     \input {3-ProyDocente-Bolonia}
+     \input {3-ProyDocente-Contenidos}
+     \input{3-ProyDocente-Biblio}
+     \input{3-ProyDocente-compara}
+     \input {3-ProyDocente-MiExp}
+   \end{part}
+%--------------------------------------------        
+  \setcounter{chapter}{0}
+%-----------------------------
+  \begin{part}{Proyecto investigador} \label{PI}
+   \fancyhf{}
+   \lhead{Proyecto investigador}
+   \rhead{\thepage}
+   \cfoot{}
+%\begin{part}{Proyecto investigador} \label{PI}
+	\input{5-ProyectoInvestigador}
+        \bibliography{5-ProyectoInvestigador-biblio}
+ 	\addcontentsline{toc}{chapter}{Bibliograf\'{\i}a}
+	\bibliographystyle{apsrev4-1-cas}
+   \end{part}
+%----------------
+
+
+
+\end{document}

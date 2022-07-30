@@ -1,0 +1,255 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  31 MAY 2012 12:24
+entering extended mode
+ %&-line parsing enabled.
+**11-oscilaciones-arik.tex
+(./11-oscilaciones-arik.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, french, basque, spanish, galician, catalan, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/share/texmf-texlive/tex/generic/babel/spanish.ldf
+Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
+
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\es@datefmt=\count88
+\es@quottoks=\toks14
+\es@quotdepth=\count89
+Package babel Info: Making " an active character on input line 492.
+Package babel Info: Making . an active character on input line 585.
+Package babel Info: Making < an active character on input line 630.
+Package babel Info: Making > an active character on input line 630.
+))
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count91
+\mult@box=\box26
+\multicol@leftmargin=\dimen106
+\c@unbalance=\count92
+\c@collectmore=\count93
+\doublecol@number=\count94
+\multicoltolerance=\count95
+\multicolpretolerance=\count96
+\full@width=\dimen107
+\page@free=\dimen108
+\premulticols=\dimen109
+\postmulticols=\dimen110
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count97
+\c@finalcolumnbadness=\count98
+\last@try=\dimen111
+\multicolovershoot=\dimen112
+\multicolundershoot=\dimen113
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+) (./komandoak.tex
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texmf-texlive/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)) (./11-oscilaciones-arik.aux)
+\openout1 = `11-oscilaciones-arik.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count99
+\scratchdimen=\dimen114
+\scratchbox=\box52
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count102
+\MPscratchDim=\dimen115
+\MPnumerator=\count103
+\everyMPtoPDFconversion=\toks17
+) <./Log_Vert2_B_N_media.pdf, id=1, 549.01112pt x 685.60138pt>
+File: ./Log_Vert2_B_N_media.pdf Graphic file (type pdf)
+
+<use ./Log_Vert2_B_N_media.pdf>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+
+ []
+
+<./upvgraf.pdf, id=3, 166.7028pt x 72.27pt>
+File: ./upvgraf.pdf Graphic file (type pdf)
+ <use ./upvgraf.pdf>
+Overfull \hbox (15.65866pt too wide) in paragraph at lines 11--11
+[][] 
+ []
+
+<irudiak/08a-orria-biplano.png, id=5, 1614.03pt x 278.03876pt>
+File: irudiak/08a-orria-biplano.png Graphic file (type png)
+
+<use irudiak/08a-orria-biplano.png>
+Overfull \hbox (11.74986pt too wide) in paragraph at lines 28--38
+[][] 
+ []
+
+<irudiak/08a-orria-malgukiser.png, id=7, 1427.3325pt x 1163.34625pt>
+File: irudiak/08a-orria-malgukiser.png Graphic file (type png)
+
+<use irudiak/08a-orria-malgukiser.png> [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Log_Vert2_B_N_media.pdf>
+ <./upvgraf.pdf> <./irudiak/08a-orria-biplano.png> <./irudiak/08a-orria-malguki
+ser.png>]
+<irudiak/3indar.png, id=32, 5148.23375pt x 1587.9325pt>
+File: irudiak/3indar.png Graphic file (type png)
+
+<use irudiak/3indar.png>
+<irudiak/08a-orria-pendufisikoa.png, id=33, 477.785pt x 543.02875pt>
+File: irudiak/08a-orria-pendufisikoa.png Graphic file (type png)
+
+<use irudiak/08a-orria-pendufisikoa.png>
+Overfull \hbox (5.75264pt too wide) in paragraph at lines 147--157
+[][] 
+ []
+
+<irudiak/08a-orria-makila.png, id=34, 412.54124pt x 891.33pt>
+File: irudiak/08a-orria-makila.png Graphic file (type png)
+
+<use irudiak/08a-orria-makila.png>
+<irudiak/08a-orria-P1P2.png, id=35, 582.175pt x 759.83875pt>
+File: irudiak/08a-orria-P1P2.png Graphic file (type png)
+
+<use irudiak/08a-orria-P1P2.png>
+Overfull \hbox (5.75264pt too wide) in paragraph at lines 176--191
+[][] 
+ []
+
+[2 <./irudiak/3indar.png> <./irudiak/08a-orria-pendufisikoa.png> <./irudiak/08a
+-orria-makila.png> <./irudiak/08a-orria-P1P2.png>]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¡ in font cmr12!
+ [3]
+(./11-oscilaciones-arik.aux) ) 
+Here is how much of TeX's memory you used:
+ 1803 strings out of 494972
+ 22957 string characters out of 1179627
+ 83203 words of memory out of 3000000
+ 5002 multiletter control sequences out of 15000+50000
+ 10097 words of font info for 35 fonts, out of 3000000 for 9000
+ 54 hyphenation exceptions out of 8191
+ 25i,7n,27p,218b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cme
+x10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on 11-oscilaciones-arik.pdf (3 pages, 1049729 bytes).
+PDF statistics:
+ 85 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,17 @@
+\usepackage{type1cm}
+\usepackage{eso-pic}
+\usepackage{color}
+
+\makeatletter
+\AddToShipoutPicture{%
+            \setlength{\@tempdimb}{.5\paperwidth}%
+            \setlength{\@tempdimc}{.5\paperheight}%
+            \setlength{\unitlength}{1pt}%
+            \put(\strip@pt\@tempdimb,\strip@pt\@tempdimc){%
+        \makebox(0,0){\rotatebox{60}{\textcolor[gray]{0.5}%
+        {\fontsize{4.25cm}{4.25cm}\selectfont{FISIKA EHU}}}}%
+            }%
+}
+\makeatother
+
+

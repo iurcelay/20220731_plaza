@@ -1,0 +1,12 @@
+map! 'a \'{a}
+map! 'e \'{e}
+map! 'i \'{\i}
+map! 'o \'{o}
+map! 'u \'{u}
+map! ,n \~{n}
+map! 'A \'{A}
+map! 'E \'{E}
+map! 'I \'{I}
+map! 'O \'{O}
+map! 'U \'{U}
+map! :u \"{u}
